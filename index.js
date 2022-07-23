@@ -4,7 +4,7 @@ const client = new Discord.Client(
         partials: ['MESSAGE', 'CHANNEL', 'REACTION']  }
 )
 
-client.login("OTg5NDU5NTQzMzcxMTYxNjQx.G7f1mP.bIk3KbO7wyD9F8x9V-yJmV2qye89XKvlfstrP8")
+client.login(process.env.token)
 
 client.on("ready", () => {
     console.log("BOT ONLINE")
