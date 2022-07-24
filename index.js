@@ -376,7 +376,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "⚪") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("985997164230635561");
@@ -389,7 +389,7 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "⚪") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.remove("985997164230635561");
@@ -402,7 +402,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "🟡") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("985997174968037496");
@@ -415,7 +415,7 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "🟡") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.remove("985997174968037496");
@@ -428,7 +428,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "🔴") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("985997170719215687");
@@ -441,7 +441,7 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "🔴") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.remove("985997170719215687");
@@ -454,7 +454,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "🔵") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("985997180470976532");
@@ -467,7 +467,7 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "🔵") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.remove("985997180470976532");
@@ -480,7 +480,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "⚫") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("985997197470474290");
@@ -493,7 +493,7 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "⚫") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.remove("985997197470474290");
@@ -519,7 +519,7 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "🟣") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.remove("985997191871094815");
@@ -532,7 +532,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "🟢") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("985997234464243722");
@@ -545,7 +545,7 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "🟢") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.remove("985997234464243722");
@@ -558,7 +558,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "🟠") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("985997185764188190");
@@ -571,7 +571,7 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "🟠") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.remove("985997185764188190");
