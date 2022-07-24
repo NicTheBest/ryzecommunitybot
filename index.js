@@ -631,6 +631,6 @@ client.on("messageCreate", message =>  {
 //REGOLAMENTO
 client.on("messageCreate", message => {
     if (message.content.startsWith("!regolamento")) {
-        message.channel.send("test")
+        message.channel.send("\<:Rules2:999229234847416372>**__REGOLAMENTO__**\<:Rules2:999229234847416372> \n \n 1) È severamente vitato entrare nella chat altrui e dar fastidio. Consequenze: @⛔ · Warn 1 \n 2) È severamente vietato bestemmiare nelle chat dove sono presenti altre persone. Consequenze: @⛔ · Warn 1 \n 3) È severamente vietato insultare le altre persone in chat, che siano membri normalissimi oppure staff di questa community. Consequenze: @⛔ · Warn 1 \n4) È vietato entrare nelle chat di altre persone che ascoltano la musica e disturbarli. Consequenze: @⛔ · Warn 1 \n 5) È vietato spammare messaggi nelle chat testuali. Consequenze @⛔ · Warn 1 \n 6) È severamente vietato mandare link di altri server o dei social personali senza il consenso del @👑 · Founder® \n \n **Spero che in questa community vi troviate molto bene **")
     }
 })
