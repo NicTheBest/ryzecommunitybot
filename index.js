@@ -98,7 +98,6 @@ client.on("interactionCreate", interaction => {
             }
 })
 
-
 //Ticket Partner
 client.on("interactionCreate", interaction => {
     if (interaction.customId == "apriTicketpartner") {
@@ -239,7 +238,6 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
         }
     }
 })
-
 //playstation aggiungi//
 client.on("messageReactionAdd", async function (messageReactionAdd, user) {
     if (user.bot) return
@@ -266,7 +264,6 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
         }
     }
 })
-
 //pc aggiungi//
 client.on("messageReactionAdd", async function (messageReactionAdd, user) {
     if (user.bot) return
