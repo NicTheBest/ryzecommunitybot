@@ -627,3 +627,10 @@ client.on("messageCreate", message =>  {
         message.channel.send ({embeds: [azione]});
         } 
 })
+
+//REGOLAMENTO
+client.on("messageCreate", message => {
+    if (message.content.startsWith("!regolamento")) {
+        message.channel.send("test")
+    }
+})
