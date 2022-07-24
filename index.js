@@ -218,7 +218,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "989464742714310727") {
+    if (messageReactionAdd.message.id == "1000723447623721060") {
         if (messageReactionAdd._emoji.name == "Xbox") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("985997107095797820");
@@ -231,7 +231,7 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "989464742714310727") {
+    if (messageReactionAdd.message.id == "1000723447623721060") {
         if (messageReactionAdd._emoji.name == "Xbox") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.remove("985997107095797820");
@@ -244,7 +244,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "989464742714310727") {
+    if (messageReactionAdd.message.id == "1000723447623721060") {
         if (messageReactionAdd._emoji.name == "Playstation") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("985997131775107132");
@@ -257,7 +257,7 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "989464742714310727") {
+    if (messageReactionAdd.message.id == "1000723447623721060") {
         if (messageReactionAdd._emoji.name == "Playstation") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.remove("985997131775107132");
@@ -270,7 +270,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "989464742714310727") {
+    if (messageReactionAdd.message.id == "1000723447623721060") {
         if (messageReactionAdd._emoji.name == "🖥️") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("985997137508700190");
@@ -283,7 +283,7 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "989464742714310727") {
+    if (messageReactionAdd.message.id == "1000723447623721060") {
         if (messageReactionAdd._emoji.name == "🖥️") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.remove("985997137508700190");
@@ -296,7 +296,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "989464742714310727") {
+    if (messageReactionAdd.message.id == "1000723447623721060") {
         if (messageReactionAdd._emoji.name == "NintendoSwitch") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("985997143670145054");
@@ -309,7 +309,7 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "989464742714310727") {
+    if (messageReactionAdd.message.id == "1000723447623721060") {
         if (messageReactionAdd._emoji.name == "NintendoSwitch") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.remove("985997143670145054");
@@ -322,7 +322,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "989464742714310727") {
+    if (messageReactionAdd.message.id == "1000723447623721060") {
         if (messageReactionAdd._emoji.name == "📱") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("985997149126934618");
@@ -335,7 +335,7 @@ client.on("messageReactionRemove", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "989464742714310727") {
+    if (messageReactionAdd.message.id == "1000723447623721060") {
         if (messageReactionAdd._emoji.name == "📱") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.remove("985997149126934618");
