@@ -199,7 +199,7 @@ client.on("messageCreate", message => {
                 .setTitle("<a:Pushpin:969898346254852096>__PIATTAFORMA__<a:Pushpin:969898346254852096>")
                 .setDescription(`<:Xbox:969898346259021834> <a:FrecciaDestra:969898345466318878> **__Xbox__** \n <:Playstation:969898345818644560> <a:FrecciaDestra:969898345466318878> **__PlayStation__** \n 🖥️ <a:FrecciaDestra:969898345466318878> **__PC__** \n <:NintendoSwitch:985999774501179422> <a:FrecciaDestra:969898345466318878> **__Nintendo Switch__** \n 📱  <a:FrecciaDestra:969898345466318878> **__Telefono__**`) //Testo
                 .setTimestamp()
-                .setFooter({ text: '⭐ Powered by Ryze Community ⭐', iconURL: 'https://cdn.discordapp.com/attachments/985176771471216700/985979541816242176/2020-11-16.jpg' })
+                .setFooter({ text: '⭐ Powered by Ryze Community ⭐', iconURL: 'https://cdn.discordapp.com/attachments/985176771471216700/985990397442555986/2020-11-16.jpg' })
             message.delete()
             message.channel.send({embeds: [sondaggio]})
             .then(msg => {
