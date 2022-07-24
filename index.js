@@ -609,3 +609,21 @@ client.on("guildMemberRemove", member => {
 
     client.channels.cache.get("986011857951289364").send({embeds: [embed]}); 
 })
+
+//ANNUNCIO
+client.on("messageCreate", message =>  { 
+    if (message.content.startsWith("!annuncio")) {
+        var args = message.content.split(/\s+/);
+        var testo;
+        testo = args.slice(1).join(" ");
+
+        var azione = new Discord.MessageEmbed ()
+        .setColor ("RANDOM") 
+        .setTitle ("<a:annuncio3:972113993818861618> **__ANNUNCIO DALLO STAFF__** <a:annuncio3:972113993818861618>")
+        .setDescription (`${testo} \n \n **__ANNOUNCEMENT BY__** <a:FrecciaDestra:969898345466318878> ${message.author.toString ()}`)
+        .setTimestamp ()
+        .setFooter({ text: '⭐ Powered by Ryze Community ⭐', iconURL: 'https://cdn.discordapp.com/attachments/985176771471216700/985990397442555986/2020-11-16.jpg' })
+        message.delete ()
+        message.channel.send ({embeds: [azione]});
+        } 
+})
