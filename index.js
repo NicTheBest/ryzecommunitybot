@@ -180,7 +180,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "989498387730685962") {
+    if (messageReactionAdd.message.id == "1000726668991803452") {
         if (messageReactionAdd._emoji.name == "Si3") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("937330656269189191");
