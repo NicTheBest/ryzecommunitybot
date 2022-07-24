@@ -166,7 +166,7 @@ client.on("messageCreate", message => {
                 .setTitle("<:si5:985170878952255518>__VERIFICA__<:si5:985170878952255518>")
                 .setDescription(`**Benvenuto nel server, prima di entrare ufficialmente nel server dovrai verificarti per garantirci che lei non sia un bot,** **__è semplicissimo__,** **ti basterà cliccare l'emoji qui sotto, buona permanenza**`) //Testo
                 .setTimestamp()
-                .setFooter({ text: '⭐ Powered by Ryze Community ⭐', iconURL: 'https://cdn.discordapp.com/attachments/985176771471216700/985979541816242176/2020-11-16.jpg' })
+                .setFooter({ text: '⭐ Powered by Ryze Community ⭐', iconURL: 'https://cdn.discordapp.com/attachments/985176771471216700/985990397442555986/2020-11-16.jpg' })
             message.delete()
             message.channel.send({embeds: [sondaggio]})
             .then(msg => {
@@ -506,7 +506,7 @@ client.on("messageReactionAdd", async function (messageReactionAdd, user) {
 
     if (messageReactionAdd.message.partial) await messageReactionAdd.message.fetch();
 
-    if (messageReactionAdd.message.id == "1000400649143459860") {
+    if (messageReactionAdd.message.id == "1000724846247940106") {
         if (messageReactionAdd._emoji.name == "🟣") {
             var utente = messageReactionAdd.message.guild.members.cache.find(x => x.id == user.id);
             utente.roles.add("985997191871094815");
@@ -589,7 +589,7 @@ client.on("guildMemberAdd", member => {
         .setTitle("<a:Welcome:999724104515076216> __WELCOME TO RYZE COMMUNITY__ <a:Welcome:999724104515076216>")
         .setDescription(`${member.toString()} Grazie per esserti unito in ⚡ • 𝐑𝐲𝐳𝐞 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲 • ⚡ in questo server potrai trovare diverse cose, ma se hai bisogno di info non esitare a creare un ticket supporto nella chat <#989516097172680734>`)
         .setTimestamp()
-        .setFooter({ text: '⭐ Powered by Ryze Community ⭐', iconURL: 'https://cdn.discordapp.com/attachments/985176771471216700/985979541816242176/2020-11-16.jpg' })
+        .setFooter({ text: '⭐ Powered by Ryze Community ⭐', iconURL: 'https://cdn.discordapp.com/attachments/985176771471216700/985990397442555986/2020-11-16.jpg' })
 
     client.channels.cache.get("999726470333206588").send({embeds: [embed]}); 
 })
@@ -602,7 +602,7 @@ client.on("guildMemberRemove", member => {
         .setTitle("⚡ • 𝐑𝐲𝐳𝐞 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲 • ⚡")
         .setDescription(`${member.toString()} Ha lasciato il server ⚡ • 𝐑𝐲𝐳𝐞 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲 • ⚡`)
         .setTimestamp()
-        .setFooter({ text: '⭐ Powered by Ryze Community ⭐', iconURL: 'https://cdn.discordapp.com/attachments/985176771471216700/985979541816242176/2020-11-16.jpg' })
+        .setFooter({ text: '⭐ Powered by Ryze Community ⭐', iconURL: 'https://cdn.discordapp.com/attachments/985176771471216700/985990397442555986/2020-11-16.jpg' })
 
     client.channels.cache.get("986011857951289364").send({embeds: [embed]}); 
 })
