@@ -354,7 +354,7 @@ client.on("messageCreate", message => {
                 .setTitle("🎨__COLORI__🎨")
                 .setDescription(`⚪ \<a:FrecciaDestra:969898345466318878> **__Bianco__** \n 🟡 \<a:FrecciaDestra:969898345466318878> **__Giallo__** \n 🔴 \<a:FrecciaDestra:969898345466318878> **__Rosso__** \n 🔵 \<a:FrecciaDestra:969898345466318878> **__Blu__** \n ⚫ \<a:FrecciaDestra:969898345466318878> **__Nero__** \n 🟣 \<a:FrecciaDestra:969898345466318878> **__Viola__** \n 🟢 \<a:FrecciaDestra:969898345466318878> **__Verde__** \n 🟠 \<a:FrecciaDestra:969898345466318878> **__Arancione__**`) //Testo
                 .setTimestamp()
-                .setFooter({ text: '⭐ Powered by Ryze Community ⭐', iconURL: 'https://cdn.discordapp.com/attachments/985176771471216700/985979541816242176/2020-11-16.jpg' })
+                .setFooter({ text: '⭐ Powered by Ryze Community ⭐', iconURL: 'https://cdn.discordapp.com/attachments/985176771471216700/985990397442555986/2020-11-16.jpg' })
             message.delete()
             message.channel.send({embeds: [sondaggio]})
             .then(msg => {
