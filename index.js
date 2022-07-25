@@ -8,7 +8,52 @@ client.login(process.env.token)
 
 client.on("ready", () => {
     console.log("BOT ONLINE")
+
+    client.guilds.cache.forEach(guild => {
+
+        guild.commands.create({
+            name: "server-info",
+            description: "Info sul server",
+        })
+    })
 })
+
+
+
+
+
+
+
+
+
+
+
+
+//SLASH SERVER INFO
+client.on("interactionCreate", interaction => {
+    if (!interaction.isCommand()) return
+
+
+    if (interaction.commandName == "server-info") {
+
+
+        let server = interaction.guild;
+        let embed = new Discord.MessageEmbed()
+            .setTitle(server.name)
+            .setDescription("<a:Esclamazione:969898345306918922>**__ECCO TUTTE LE INFO DEL SERVER__**<a:Esclamazione:969898345306918922>")
+            .setThumbnail(server.iconURL())
+            .addField("<a:RE:969898346389057637>Owner<a:RE:969898346389057637>", client.users.cache.get(server.ownerId).username, true)
+            .addField("Server id", server.id, true)
+            .addField("<:Member:998611132434620497>Members<:Member:998611132434620497>", server.memberCount.toString())
+            .addField("<:Chat:999229305320120332>Channels<:Chat:999229305320120332>", server.channels.cache.size.toString())
+            .addField("Server created", server.createdAt.toDateString(), true)
+            .addField("<a:boostserver:1000428854306934814>Boost Level<a:boostserver:1000428854306934814>", "Level " + (server.premiumTier != "NONE" ? server.premiumTier : 0) + " (Boost: " + server.premiumSubscriptionCount + ")", true)
+
+        interaction.reply({ embeds: [embed]})
+    }
+})
+
+
 
 //------------------------------------------------------------------------------------------------------------//
 //TICKET//
